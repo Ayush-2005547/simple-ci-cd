@@ -4,19 +4,19 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building...'
+                echo 'Building...' // Placeholder for build commands
             }
         }
 
         stage('Test') {
             steps {
-                echo 'Testing...'
+                echo 'Testing...' // Placeholder for tests
             }
         }
 
         stage('Deploy') {
             steps {
-                echo 'Deploying...'
+                echo 'Deploying...' // Placeholder for deploy steps
             }
         }
     }
